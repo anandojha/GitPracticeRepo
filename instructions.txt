@@ -1,0 +1,1 @@
+conda create -n martini python=3.8 -y; conda activate martini; conda install -c conda-forge openmm=7.7.0 pdbfixer gromacs ambertools mdtraj -y; python run_martini_gromacs.py ; python run_martini_openmm.py
